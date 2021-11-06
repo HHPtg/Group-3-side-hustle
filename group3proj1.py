@@ -8,7 +8,7 @@ def student_status(class_avg, student_score):
         elif student_score < class_avg:
             print(student_name + ' beat pass mark of but failed to beat class average')
     elif student_score < pass_mark and student_score >= class_avg:
-        print(student_name + ' beat class avg but not pass mark' )
+        print(student_name + ' beat class average but not pass mark' )
     else:
         print(student_name + ' failed')
 
