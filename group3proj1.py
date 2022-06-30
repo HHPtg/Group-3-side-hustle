@@ -14,5 +14,5 @@ def student_status(class_avg, student_score):
 
 student_name = input('insert student name: ')
 student_score = int(input('insert student mark: '))
-class_avg = float(input('input class average: '))
+class_avg = float(input('input class average:'))
 student_status(class_avg,student_score)
